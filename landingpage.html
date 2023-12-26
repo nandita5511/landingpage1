@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        
+    }
+  #navlist{
+    list-style: none ;
+    
+  } 
+  .container{
+    height: 10vh; width: 100vw; overflow-x:none ;
+  }
+  .navcontainer{
+width: 100vw;
+background-color: rgb(131, 67, 199);
+min-height: 80px;
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(80,80,187,1) 35%, rgba(0,212,255,1) 100%);
+  }
+  #navlogo{
+    font-size:2.5rem;
+    color: rgb(197, 198, 197);
+    font-family: cursive;
+  }
+  #navlist{
+    width: 100%;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    
+
+  }
+  a{
+    text-decoration: none;
+    color: rgb(40, 32, 199);
+  }
+  #navitems{
+    display: flex;
+    gap: 40px;
+  }
+  .footerbox{
+    
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(80,80,187,1) 35%, rgba(0,212,255,1) 100%);
+    color: burlywood;
+    width: 100%;
+    text-align: center;
+    min-height: 100%;
+  }
+  .footerbox p{
+    font-size: 2rem;
+    
+  }
+  .contentbox{
+    margin: auto;
+    border: 2px solid rgb(236, 225, 225);
+    background-color:white;
+  }
+  a:hover{
+    background-color: rgb(18, 7, 65);
+    color: rgb(133, 51, 201);
+  }
+  section{
+    margin: 80px auto;
+    width: 80%;
+  }
+  .row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .row.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .row .col img{
+    display: flex; flex-direction: column;align-items: center;
+  }
+  .events .row{
+    margin-top:80px ;}
+
+  h1{
+    font-family: monospace;  font-size: 40px;
+    padding: 20px;margin: 20px;
+  }
+  .contentbox{
+    width: 80%;height: 10%;
+    float:right;padding: 0;margin: 0;
+   
+  }
+   
+  h2{
+    padding: 20px;font-size: 50px;text-shadow: 2px 9px 2px rgb(32, 121, 123) ;
+    color: aliceblue;
+  } 
+h4{
+ font-size:30px ; color: rgb(172, 91, 170);gap: 3px; text-align: left;text-shadow: 3px 4px 3px rgb(65, 45, 212);
+}
+#image1{
+  width: 100%;
+  float: right;
+}
+   #image2{
+    height: 200px;width: 300px;
+   }
+  
+  p{
+    font-family: cursive;font-size: 20px; font-style: italic;
+  }
+  .btn{
+    background-color: red;font-style: bold;font-size: larger;align-items: center;
+  }
+</style>
+<body>
+  <div class="container">
+   <header>
+    
+    <div class="navcontainer">
+      
+        <nav>
+          <ul id="navlist">
+            
+              <li>
+                  <p id="navlogo">Landing Page</p>
+              </li>
+              <li>
+                  <div id="navitems">
+                  <a href="#">Home</a>
+                  <a href="#">Pages</a>
+                  <a href="#">Portfolio</a>
+                  <a href="#">Blog</a>
+                  <a href="#">Help</a>
+              </div>
+      
+              </li>
+          </ul>
+        </nav>
+       
+      </div>
+      
+      <h2><center>WELCOME TO LANDING PAGE</center> </h2>
+      
+    <h4>WE ARE CREATIVE </h4>
+    <p>Marketing is dynamic and <br> The details differ between <br>industries, but at its <br> most basic marketing is how <br> businesses reach prospective<br> customers and communicate the <br>unique benefits of a product or<br> service.
+  </p>
+   </header>
+   <main>
+    
+    </div>
+    <div class="contentbox">
+      <img id="image1" src="laptop.jpg" alt="image" class="responsive" height="600px" width="900px">
+     
+</div>
+   <section class="events">
+   <div class="row">
+    <div class="column">
+      <img id="image2" src="images (1).jpg" alt="">
+        <h1><center>job offer registration</center></h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quasi, nemo perspiciatis enim modi harum accusantium architecto molestiae soluta aut omnis?</p>
+        <a href="#" class="btn"><center>REGISTER</center></a>
+    </div>
+    
+    <div class="column">
+        <img id="image2" src="images.jpg" >
+        <h1><center>ourskills</center></h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, pariatur, sunt alias ullam ea at tenetur esse deserunt ut expedita, voluptate numquam impedit cum ipsum quia consequatur eaque quidem temporibus. </p>
+        
+   </div>
+</section>
+   </main>
+<footer>
+    <div class="footerbox">
+    <p>
+        Copyright &copy; 2025 Mobirise - All Rights Reserved
+    </p>
+</div>
+</footer>
+ 
+
+ </div>
+ </div>
+</body>
+</html>
